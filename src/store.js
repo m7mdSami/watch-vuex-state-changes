@@ -23,7 +23,7 @@ export default new Vuex.Store({
       try {
         await api.get();
 
-        commit('updateStatus', ' vuex الداتا اتغيرت باستخدام');
+        commit('updateStatus', 'rxjs من غير مكتبه  vuex الداتا اتغيرت باستخدام');
         
       } catch (e) {
         console.error(e);
