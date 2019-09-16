@@ -16,13 +16,6 @@ export default {
   watch: {
     status(newValue, oldValue) {
       console.log(`Updating from ${oldValue} to ${newValue}`);
-
-      // Do whatever makes sense now
-        this.complex = {
-          deep: 'some deep object',
-        };
-      // if (newValue === 'success') {
-      // }
     },
   },
 };
